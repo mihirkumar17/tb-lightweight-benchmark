@@ -1,0 +1,7 @@
+model,setting,n_seeds,baseline_pooled,masked_pooled,p_pooled_exact_MW,internal_masked_vs_base,p_internal
+MobileNetV3-L,masked-train/masked-test,5,0.595 ± 0.081,0.678 ± 0.032,0.028,0.995 vs 0.999,0.001
+MobileNetV3-L,masked-train/original-test,5,0.595 ± 0.081,0.586 ± 0.104,0.953,0.993 vs 0.999,0.001
+ShuffleNetV2,masked-train/masked-test,5,0.619 ± 0.047,0.678 ± 0.011,0.028,0.997 vs 0.999,0.019
+ShuffleNetV2,masked-train/original-test,5,0.619 ± 0.047,0.681 ± 0.021,0.019,0.996 vs 0.999,0.005
+SqueezeNet1.1,masked-train/masked-test,5,0.720 ± 0.034,0.758 ± 0.039,0.099,0.989 vs 0.993,0.055
+SqueezeNet1.1,masked-train/original-test,5,0.720 ± 0.034,0.737 ± 0.052,0.44,0.989 vs 0.993,0.075

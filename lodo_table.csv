@@ -1,0 +1,5 @@
+model,SZ->MC (train SZ only),lodo-hold-MC (train TBX+SZ),lodo-hold-SZ (train TBX+MC),lodo-hold-TBX (train SZ+MC)
+EfficientNet-B0,0.71 ± 0.05,0.65 ± 0.04,0.55 ± 0.15,0.70 ± 0.05
+MobileNetV3-L,0.77 ± 0.04,0.56 ± 0.09,0.60 ± 0.13,0.73 ± 0.03
+ShuffleNetV2,0.79 ± 0.04,0.60 ± 0.02,0.70 ± 0.04,0.76 ± 0.01
+SqueezeNet1.1,0.69 ± 0.11,0.61 ± 0.01,0.74 ± 0.06,0.79 ± 0.03

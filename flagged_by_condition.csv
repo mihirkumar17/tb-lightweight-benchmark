@@ -1,0 +1,6 @@
+cond,fl_tbx,fl_sz,fl_mc
+border,0.158,0.762,0.33
+border+corners,0.15,0.75,0.313
+centercrop80,0.08,0.657,0.243
+corners,0.15,0.829,0.43
+orig,0.115,0.874,0.519
